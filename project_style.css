@@ -1,0 +1,149 @@
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .flex-container {
+    display: flex; 
+    flex-direction: row; 
+    font-size: 30px;  
+    text-align: center;  
+    height: auto;
+  }
+  
+   
+  
+  .flex-item-right {  
+    min-height: 700px;
+    width: 500px;
+    background-color: #f1f1f1;  
+    font-size: 25px;  
+    flex: 50%;  
+  }
+  
+   
+  
+  .flex-item-left {  
+    width: 500px;
+    flex: 50%;  
+  }
+
+  body {
+    background-image: url('images/pink.jpg');
+
+  }
+
+  h1 {
+    color:black;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+
+  h2 {
+    color:black;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+
+
+ p {
+    color: #0f0f0f;
+    text-align: center;
+    font-size: 28px;
+    font-family: cursive;
+    margin-top: 60px;
+    padding: 0px 30px 0px 30px;
+  }
+
+  .intro {
+    color: #0f0f0f;
+    text-align: center;
+    font-size: 28px;
+    font-family: cursive;
+    margin-top: 90px;
+    padding: 0px 30px 0px 30px;
+  }
+
+  label {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+
+ footer {
+    background-color: #c9c6c6;
+    color: #a50174;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+    font-family: cursive;
+  }
+ 
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 5px;
+  }
+
+
+
+  
+
+  /* Responsive layout - makes a one column-layout instead of two-column layout 
+  @media (max-width: 650px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    .wrapper { width: 90%; }
+  }
+  @media only screen and (max-width: 650px) {
+    .wrapper { width: 80%; }
+    p { font-size: 26px; margin-top: 70px;}
+    .intro { font-size: 26px; margin-top: 100px;}
+    label { font-size: 14px;}
+  }
+  @media only screen and (max-width: 580px) {
+    p { font-size: 22px; }
+  }
+    /* Responsive layout - makes a one column-layout instead of two-column layout 
+    @media (max-width: 750px) {
+        .flex-container {
+          flex-direction: column;
+        }
+      }
+      
+   
+  
+  Responsive layout - makes a one column-layout instead of a two-column layout  
+  @media (max-width: 800px) {  
+    .flex-item-right, .flex-item-left {  
+      flex: 100%;  
+    }
+  
+  }
+        /* For mobile phones:
+        [class*="col-"] {
+            width: 100%;
+          }
+   [class*="col-"] {
+    float: left;
+    padding: 5px;
+  }
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  */ 

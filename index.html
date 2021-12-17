@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vikki's Wedding Site (draft)</title>
+  <link href="project_style.css" rel="Stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    
+    <h1>Wedding Invitation Designer</h1>
+      
+    <div class="flex-container">
+
+        <div id="flex-item-left" style= "background-image: url('./images/drinks_new.jpg')">
+
+            <p class="flex-item-left">You are invited to the wedding of </p>
+      
+            <p class="flex-item-left" id="demoNames"></p>
+      
+            <p class="flex-item-left" id="demoDate"></p>
+      
+            <p class="flex-item-left" id="demoLocation"></p>
+
+            <p class="flex-item-left" id="demoRsvp"></p>
+
+            <!--<p class="outro">RSVP to:</p>-->
+
+        </div>
+
+        <div class="flex-item-right">
+
+            <h2>Themes:</h2>
+            <button onclick="myFunction2(); changeDrinkFont();">Drinks</button>
+    
+            <!-- <button onclick="myFunction3()">Palm trees</button>-->
+
+            <button onclick="myFunction3(); changePalmFont();">Palm trees</button>
+    
+            <button onclick="myFunction4(); changeFlamingoFont();">Flamingo</button>
+    
+            <br> <br> <br>
+    
+            <label for="name1">Bride's name</label> <br> 
+            <input type="text" id="name1" oninput="nameFunction()"> <br> <br>
+        
+            <label for="name2">Groom's name</label> <br> 
+            <input type="text" id="name2" oninput="nameFunction()"> <br> <br>
+         
+            <label for="weddingDate">Date</label> <br> 
+            <input type="date" id="weddingDate" oninput="dateFunction()"> <br> <br>
+        
+            <label for="location">Wedding location</label> <br> 
+            <input type="text" id="location" oninput="locationFunction()"> <br> <br>
+
+            <label for="rsvp">RSVP to</label> <br> 
+            <input type="text" id="rsvp" oninput="rsvpFunction()"> <br> <br>
+
+        </div>
+
+    </div>
+
+  </div>
+
+<br> 
+<br> 
+<br> 
+<br> 
+
+<script src="project.js"></script>
+
+
+</body>
+
+<footer>
+
+    <div>This page has been created by <a href="https://github.com/vikkimason" target="_blank">Vikki</a> for her Academy Xi second project, in December 2021.</div>
+    
+</footer>
+
+</html>
