@@ -42,7 +42,7 @@ function rsvpFunction() {
 
   f = document.getElementById("rsvp").value;
 
-  document.getElementById("demoRsvp").innerText = "RSVP to " + f ;
+  document.getElementById("demoRsvp").innerText = "RSVP: " + f ;
     
 }
 
@@ -56,16 +56,16 @@ function rsvpFunction() {
 */
 
 
-  function myFunction2() {
-    document.getElementById("flex-item-left").style.backgroundImage = 'url("images/drinks_new.jpg")';
+  function drinkImage() {
+    document.getElementById("flex-item-left").style.backgroundImage = 'url("images/drinks.jpg")';
   }
 
-  function myFunction3() {
-    document.getElementById("flex-item-left").style.backgroundImage = 'url("images/palm.jpg")';
+  function palmImage() {
+    document.getElementById("flex-item-left").style.backgroundImage = 'url("images/Couple.jpg")';
   }
 
-  function myFunction4() {
-    document.getElementById("flex-item-left").style.backgroundImage = 'url("images/flamingo.jpg")';
+  function flamingoImage() {
+    document.getElementById("flex-item-left").style.backgroundImage = 'url("images/flamingopink.jpg")';
   }
 
 
@@ -75,8 +75,9 @@ function rsvpFunction() {
     let classNames = document.getElementsByClassName("flex-item-left");  
   
     for (let i = 0; i < classNames.length; i++) {
-      classNames[i].style.fontFamily= "cursive";
-      classNames[i].style.fontSize= "28px";
+      classNames[i].style.fontFamily= "segoe script";
+      classNames[i].style.fontSize= "32px";
+      classNames[i].style.color= "black";
     }
   }
 
@@ -86,8 +87,9 @@ function rsvpFunction() {
     let classNames = document.getElementsByClassName("flex-item-left");  
   
     for (let i = 0; i < classNames.length; i++) {
-      classNames[i].style.fontFamily= "arial";
-      classNames[i].style.fontSize= "32px";
+      classNames[i].style.fontFamily= "century gothic";
+      classNames[i].style.fontSize= "34px";
+      classNames[i].style.color= "yellow";
     }
   }
 
@@ -97,8 +99,9 @@ function rsvpFunction() {
     let classNames = document.getElementsByClassName("flex-item-left");  
   
     for (let i = 0; i < classNames.length; i++) {
-      classNames[i].style.fontFamily= "garamond";
-      classNames[i].style.fontSize= "42px";
+      classNames[i].style.fontFamily= "consolas";
+      classNames[i].style.fontSize= "38px";
+      classNames[i].style.color= "pink";
     }
   }
 

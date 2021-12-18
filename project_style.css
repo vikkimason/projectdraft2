@@ -16,8 +16,10 @@
   
   .flex-item-right {  
     min-height: 700px;
+    padding-top: 45px;
     width: 500px;
-    background-color: #f1f1f1;  
+    background-color: #00000057;  
+    color: white;
     font-size: 25px;  
     flex: 50%;  
   }
@@ -30,21 +32,21 @@
   }
 
   body {
-    background-image: url('images/pink.jpg');
+    background-image: url('images/satin.jpg');
 
   }
 
   h1 {
     color:black;
-    font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-family: cursive;
     text-align: center;
   }
 
   h2 {
-    color:black;
+    color:white;
     font-size: 24px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: cursive;
     text-align: center;
   }
 
@@ -52,8 +54,8 @@
  p {
     color: #0f0f0f;
     text-align: center;
-    font-size: 28px;
-    font-family: cursive;
+    font-size: 32px;
+    font-family: segoe script;
     margin-top: 60px;
     padding: 0px 30px 0px 30px;
   }
@@ -68,8 +70,8 @@
   }
 
   label {
-    font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    font-family: cursive;
   }
   
 
@@ -102,7 +104,12 @@
 
   
 
-  /* Responsive layout - makes a one column-layout instead of two-column layout 
+  /* 
+  
+      font-size: 34px;
+    font-family: segoe script;
+  
+  Responsive layout - makes a one column-layout instead of two-column layout 
   @media (max-width: 650px) {
     .flex-container {
       flex-direction: column;
