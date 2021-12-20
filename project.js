@@ -75,8 +75,8 @@ function rsvpFunction() {
     let classNames = document.getElementsByClassName("flex-item-left");  
   
     for (let i = 0; i < classNames.length; i++) {
-      classNames[i].style.fontFamily= "segoe script";
-      classNames[i].style.fontSize= "32px";
+      classNames[i].style.fontFamily= "Architects Daughter";
+      classNames[i].style.fontSize= "40px";
       classNames[i].style.color= "black";
     }
   }
@@ -87,7 +87,7 @@ function rsvpFunction() {
     let classNames = document.getElementsByClassName("flex-item-left");  
   
     for (let i = 0; i < classNames.length; i++) {
-      classNames[i].style.fontFamily= "century gothic";
+      classNames[i].style.fontFamily= "raleway";
       classNames[i].style.fontSize= "34px";
       classNames[i].style.color= "yellow";
     }
@@ -99,7 +99,7 @@ function rsvpFunction() {
     let classNames = document.getElementsByClassName("flex-item-left");  
   
     for (let i = 0; i < classNames.length; i++) {
-      classNames[i].style.fontFamily= "consolas";
+      classNames[i].style.fontFamily= "Comfortaa";
       classNames[i].style.fontSize= "38px";
       classNames[i].style.color= "pink";
     }

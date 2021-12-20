@@ -4,6 +4,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vikki's Wedding Site (draft)</title>
   <link href="project_style.css" rel="Stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat:wght@500&family=Comfortaa:wght@500&family=Poppins:wght@300&family=Raleway:wght@300&display=swap" rel="stylesheet">
 
 </head>
 
@@ -57,7 +60,8 @@
             <input type="text" id="location" placeholder="suburb" oninput="locationFunction()"> <br> <br>
 
             <label for="rsvp">RSVP to</label> <br> 
-            <input type="tel" id="rsvp" placeholder="0400 000 000" oninput="rsvpFunction()"> <br> <br>
+            <input type="tel" id="rsvp" name="phone"
+            pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" size="12" placeholder="0400 000 000" oninput="rsvpFunction()"> <br> <br>
 
         </div>
 
@@ -75,7 +79,12 @@
 
 
 
-<footer>
+<footer style="
+position: fixed;
+width: 100%;
+bottom: 0;
+left: 0;
+">
 
     <div>This page has been created by <a href="https://github.com/vikkimason" target="_blank">Vikki</a> for her Academy Xi second project, in December 2021.</div>
     
